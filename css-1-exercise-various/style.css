@@ -1,0 +1,45 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+}
+
+
+p.parrafo1 {
+    font-family: Tahoma;
+    background-color: beige;
+    padding: 1rem;
+}
+
+.container {
+    background-color: cadetblue;
+    padding: 5rem;
+}
+
+.item1 {
+    height: 10rem;
+    width: 10rem;
+    background-color: pink;
+    padding: 1rem;
+}
+
+
+.button1 {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid red;
+    font-weight: bold;
+    color: blue;
+    transition: background-color 0.5s;
+}
+
+.button1:hover {
+    background-color: blueviolet;
+    color: aliceblue;
+}
