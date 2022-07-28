@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Exercise</title>
+
+
+    <style>
+
+        .grid-container {
+            display: grid;
+            grid-gap: 2px;
+            font-family: Tahoma;
+            font-weight: 800;
+            grid-template-columns: repeat(5, 18vw );
+            justify-content: center;
+        }
+
+        .grid-item {
+            background-color: blanchedalmond;
+            padding: 1rem;
+            
+        }
+
+
+        .item-1 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+
+            grid-row-start: 1;
+            grid-row-end: 3;
+
+        }
+
+        .item-2 {
+            grid-column-start: 3;
+            grid-column-end: 6;
+
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+
+        .item-3 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+
+        .item-4 {
+            grid-column-start: 3;
+            grid-column-end: 4;
+
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+
+        .item-5 {
+            grid-column-start: 4;
+            grid-column-end: 5;
+
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+
+        .item-6 {
+            grid-column-start: 5;
+            grid-column-end: 6;
+
+            grid-row-start: 2;
+            grid-row-end: 4;
+
+        }
+
+        .item-7 {
+            grid-column-start: 1;
+            grid-column-end: 6;
+
+            grid-row-start: 5;
+            grid-row-end: 6;
+
+        }
+
+        .item-8 {
+            grid-column: span 3;
+            grid-row-start: span 2;
+        }
+
+        .item-9 {
+            grid-column: span 2;
+            grid-row-start: span 2;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="grid-container">
+        
+        <div class="grid-item item-1">Grid item #1</div>
+        <div class="grid-item item-2">Grid item #2</div>
+        <div class="grid-item item-3">Grid item #3</div>
+        <div class="grid-item item-4">Grid item #4</div>
+        <div class="grid-item item-5">Grid item #5</div>
+        <div class="grid-item item-6">Grid item #6</div>
+        <div class="grid-item item-7">Grid item #7</div>
+        <div class="grid-item item-8">Grid item #8</div>
+        <div class="grid-item item-9">Grid item #9</div>
+        
+
+    </div>
+
+
+</body>
+</html>
